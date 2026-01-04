@@ -1,0 +1,14 @@
+{
+  "name": "minicad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts > out.svg"
+  },
+  "author": "addy zhou",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
