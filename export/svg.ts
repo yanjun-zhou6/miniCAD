@@ -8,7 +8,7 @@ export function toSVG(shape: Shape): string {
   return `
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="-150 -150 300 300">
-  <path d="${paths.join(" ")}" fill="black" stroke="none"/>
+  <path d="${paths.join(" ")}" fill="black" stroke="none" fill-rule="evenodd"/>
 </svg>
 `.trim();
 }
